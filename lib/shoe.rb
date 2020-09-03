@@ -1,7 +1,6 @@
 class Shoe
   def initialize(brand, condition="new")
     @brand = brand
-    attr_accessor :condition
   end
   def brand
     @brand
