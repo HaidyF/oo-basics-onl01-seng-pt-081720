@@ -1,5 +1,6 @@
 class Shoe
   def initialize(brand, condition="new")
+    attr_reader :condition
     @brand = brand
   end
   def brand
