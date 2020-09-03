@@ -34,4 +34,4 @@ class Shoe
   end
 end
 Shoe.new("Adidas")
-cobble.new("new")
+Shoe.new("new")
